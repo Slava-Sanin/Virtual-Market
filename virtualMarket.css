@@ -1,0 +1,131 @@
+header{
+    text-align: center;
+	background: #4f8eb0;
+	font-size: 20pt;
+	color: white;
+	border-radius: 20px;
+	box-shadow: 0 0 10px 0px rgba(12,3,25,0.8);
+	}
+	
+#wrapper{
+	height: 800px;
+	width: 60%;
+	margin: auto;
+	margin-top: 20px;
+	color: #fff;
+	position: relative;
+	min-height: 80vh;
+	background: #f2f8ad;
+	border-radius: 40px;
+	box-shadow: 0 0 10px 0px rgba(12,3,25,0.8);
+	min-width: 1136px;
+	}
+	
+ul,ol{
+	color: black;
+	font-family: "Book Antiqua";
+	font-size: 13pt;
+}
+
+li:hover{
+	color: #1300ff;
+	font-style: italic;
+	font-weight: bold;
+	font-size: 15pt;
+	cursor: pointer;
+}
+
+#div1{
+	position: absolute;
+	margin-top: 30px;
+	margin-left: 40px;
+	//border: black;
+	width: 30%;
+	min-width: 250px;
+	border-radius: 20px;
+	box-shadow: 10px 10px 12px 5px rgba(12,3,25,0.8);
+	padding: 15px;
+	float: left;
+	background: rgba(224, 145, 123, 0.5);
+}
+
+#div2{
+	position: absolute;
+	margin-top: 30px;
+	margin-left: 730px;
+	//border: black;
+	width: 30%;
+	min-width: 250px;
+	border-radius: 20px;
+	box-shadow: 10px 10px 12px 5px rgba(12,3,25,0.8);
+	padding: 0px 15px 15px 15px;
+	background: rgba(0, 256, 256, 0.5);
+}
+
+h2{
+	color: red;
+	text-align: center;
+	font-family: "New York";
+}
+	
+@keyframes mymove {
+    from {left: 10px;}
+    to {left: 830px;}
+}
+
+#div3{
+	//visibility: hidden;
+	display: none;
+	position: absolute;
+	z-index: 3;
+	left: 320px;
+	top: 150px;
+	min-width: 400px;
+	min-height: 500px;
+	//border: black;
+	border-radius: 20px;
+	box-shadow: 20px 20px 25px 10px rgba(12,3,25,0.8);
+	background: rgba(0, 256, 0, 0.5);
+}
+
+ hr{ 
+ 	 //position: absolute; 
+ 	 color: #2fa4d0;
+ }
+ 	 
+#pic{
+	border: 3px solid;
+	box-shadow: 20px 20px 30px #aaaaaa;
+	//0 0 20px 0px rgba(12,3,25,0.8);
+	padding: 17px;
+	border-radius: 7px;
+	width: 230px; 
+	height: 230px; 
+	top: 10px;
+	margin-left: 30px;
+	transform: rotate(7deg);
+	background-color: #DDD;
+} 	 
+
+#add-to-cart-button{
+	width: 50px;
+	height: 50px;
+	//display:block;
+	background-image: url('pics/sal.jpg');
+	//float: right;
+	//margin-right: 100px;
+	margin-bottom: 25px;
+	margin-left: 175px;
+	border-radius: 10px;
+}
+
+#p_total_price{
+	color: red; 
+	margin-left: 80px; 
+	display: inline;
+	font-weight: bold;
+}
+
+div{
+	border: 5px solid #4f8eb0;
+}
